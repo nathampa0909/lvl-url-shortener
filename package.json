@@ -1,0 +1,35 @@
+{
+  "name": "lvl-url-shortener",
+  "version": "1.0.0",
+  "description": "A test url shortener project to learn more about nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathampa0909/lvl-url-shortener.git"
+  },
+  "keywords": [
+    "nodejs",
+    "url",
+    "url-shortener",
+    "lvl",
+    "ufg",
+    "learning"
+  ],
+  "author": "nathampa0909",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathampa0909/lvl-url-shortener/issues"
+  },
+  "homepage": "https://github.com/nathampa0909/lvl-url-shortener#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.5",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
